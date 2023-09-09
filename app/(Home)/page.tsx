@@ -1,4 +1,4 @@
-import Image from 'next/image'
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import HeroSection from '@/Components/herosec';
 export default function Home() {
@@ -6,6 +6,7 @@ export default function Home() {
     <>
     
         <HeroSection/>
+        <h1>Hello world!</h1>
     
     </>
   )
